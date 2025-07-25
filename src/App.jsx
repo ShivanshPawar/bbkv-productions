@@ -13,7 +13,6 @@ import Footer from './components/Footer';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
-  const velocity = 2; // Set your desired scroll velocity value
 
   return (
     <div className="relative">
