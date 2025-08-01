@@ -18,7 +18,7 @@ export default function ContactSection() {
           transition={{ duration: 0.8 }}
           className="text-3xl md:text-5xl font-bold"
         >
-          CONNECT WITH <span className="text-yellow-400">BBKV</span>
+          CONNECT WITH <span className="text-yellow-400 cursor-target">BBKV</span>
         </motion.h2>
         <p className="text-gray-400 mt-2 text-sm md:text-base">
           Let’s collaborate, chat, or just say hi!
@@ -37,21 +37,21 @@ export default function ContactSection() {
           <input
             type="text"
             placeholder="Your Name"
-            className="w-full px-4 py-3 rounded-lg bg-zinc-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+            className="cursor-target w-full px-4 py-3 rounded-lg bg-zinc-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400"
           />
           <input
             type="email"
             placeholder="Your Email"
-            className="w-full px-4 py-3 rounded-lg bg-zinc-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+            className="cursor-target w-full px-4 py-3 rounded-lg bg-zinc-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400"
           />
           <textarea
             placeholder="Your Message"
             rows="5"
-            className="w-full px-4 py-3 rounded-lg bg-zinc-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+            className="cursor-target w-full px-4 py-3 rounded-lg bg-zinc-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400"
           />
           <button
             type="submit"
-            className="bg-yellow-400 hover:bg-yellow-300 text-black font-bold py-3 px-6 rounded-lg transition duration-300"
+            className="cursor-target bg-yellow-400 hover:bg-yellow-300 text-black font-bold py-3 px-6 rounded-lg transition duration-300"
           >
             Send Message
           </button>
@@ -85,7 +85,7 @@ export default function ContactSection() {
               href="https://www.linkedin.com/company/bbkv-productions"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 p-4 rounded-xl transition"
+              className="cursor-target flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 p-4 rounded-xl transition"
             >
               <FaLinkedin size={20} className="text-blue-500" />
               <span className="font-medium text-sm">LinkedIn</span>
@@ -96,7 +96,7 @@ export default function ContactSection() {
               href="https://www.instagram.com/bhuvan.bam22"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 p-4 rounded-xl transition"
+              className="cursor-target flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 p-4 rounded-xl transition"
             >
               <FaInstagram size={20} className="text-pink-500" />
               <span className="font-medium text-sm">Instagram</span>
@@ -107,7 +107,7 @@ export default function ContactSection() {
               href="https://www.facebook.com/bbkivines"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 p-4 rounded-xl transition"
+              className="cursor-target flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 p-4 rounded-xl transition"
             >
               <FaFacebook size={20} className="text-blue-600" />
               <span className="font-medium text-sm">Facebook</span>
@@ -118,7 +118,7 @@ export default function ContactSection() {
               href="https://www.youtube.com/bbkivines"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 p-4 rounded-xl transition"
+              className="cursor-target flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 p-4 rounded-xl transition"
             >
               <FaYoutube size={20} className="text-red-600" />
               <span className="font-medium text-sm">YouTube</span>
@@ -129,7 +129,7 @@ export default function ContactSection() {
               href="https://twitter.com/bhuvan_bam"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 p-4 rounded-xl transition"
+              className="cursor-target flex items-center gap-2 bg-zinc-800 hover:bg-zinc-700 p-4 rounded-xl transition"
             >
               <FaXTwitter size={20} className="text-white" />
               <span className="font-medium text-sm">X / Twitter</span>

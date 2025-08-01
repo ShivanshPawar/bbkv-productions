@@ -121,7 +121,7 @@ export default function BBKVCinema() {
                     whileInView={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.8 }}
                 >
-                    BBKV <span className="text-yellow-400">TRACKS</span>
+                    BBKV <span className="text-yellow-400 cursor-target">TRACKS</span>
                 </motion.h2>
             </div>
 
@@ -155,7 +155,7 @@ export default function BBKVCinema() {
                             />
                             <button
                                 onClick={() => toggleFullScreen(index)}
-                                className="absolute top-2 right-2 bg-yellow-400 text-black px-3 py-1 text-sm rounded hover:bg-yellow-500 transition-all"
+                                className="cursor-target absolute top-2 right-2 bg-yellow-400 text-black px-3 py-1 text-sm rounded hover:bg-yellow-500 transition-all"
                             >
                                 {isFullscreen && currentFullscreenIndex === index
                                     ? 'Minimize'
@@ -167,8 +167,8 @@ export default function BBKVCinema() {
                 ))}
 
                 {/* Navigation Arrows */}
-                <div className="swiper-button-prev !text-yellow-400 !text-3xl"></div>
-                <div className="swiper-button-next !text-yellow-400 !text-3xl"></div>
+                <div className="swiper-button-prev !text-yellow-400 !text-3xl cursor-target"></div>
+                <div className="swiper-button-next !text-yellow-400 !text-3xl cursor-target"></div>
             </Swiper>
         </section>
     );

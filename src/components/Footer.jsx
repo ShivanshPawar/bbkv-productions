@@ -12,7 +12,7 @@ export default function Footer() {
                     <img
                         src={logo}
                         alt="BBKV Logo"
-                        className="h-10 w-auto"
+                        className="cursor-target h-12 w-auto"
                     />
                 </div>
 
@@ -27,7 +27,7 @@ export default function Footer() {
                         href="https://www.instagram.com/bbkvproductions?utm_source=ig_web_button_share_sheet&igsh=MTdlZmU1djBtYmp0aA=="
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:scale-110 transition-transform"
+                        className="cursor-target hover:scale-110 transition-transform"
                     >
                         <FaInstagram />
                     </a>
@@ -35,7 +35,7 @@ export default function Footer() {
                         href="https://www.linkedin.com/company/bbkv-productions"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:scale-110 transition-transform"
+                        className="cursor-target hover:scale-110 transition-transform"
                     >
                         <FaLinkedin />
                     </a>
@@ -43,7 +43,7 @@ export default function Footer() {
                         href="https://www.youtube.com/@BBKVProductions"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:scale-110 transition-transform"
+                        className="cursor-target hover:scale-110 transition-transform"
                     >
                         <FaYoutube />
                     </a>
@@ -51,7 +51,7 @@ export default function Footer() {
                         href="https://x.com/BbkvProductions"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:scale-110 transition-transform"
+                        className="cursor-target hover:scale-110 transition-transform"
                     >
                         <FaXTwitter />
                     </a>

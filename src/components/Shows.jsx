@@ -124,7 +124,7 @@ export default function shows() {
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8 }}
         >
-          BBKV <span className="text-yellow-400">SHOWS</span>
+          BBKV <span className="text-yellow-400 cursor-target">SHOWS</span>
         </motion.h2>
       </div>
 
@@ -156,7 +156,7 @@ export default function shows() {
                         <button
                             key={i}
                             onClick={() => handleVideoChange(video)}
-                            className={`bg-white/5 hover:bg-white/10 px-4 py-3 rounded flex justify-between items-center ${video.videoId === activeVideo.videoId ? "border border-yellow-400" : ""
+                            className={`cursor-target bg-white/5 hover:bg-white/10 px-4 py-3 rounded flex justify-between items-center ${video.videoId === activeVideo.videoId ? "border border-yellow-400" : ""
                                 }`}
                         >
                             <div className="flex flex-col text-left">

@@ -70,7 +70,7 @@ export default function AwardsTimeline() {
           transition={{ duration: 0.8 }}
           className="text-3xl md:text-5xl font-bold"
         >
-          BBKV <span className="text-yellow-400">'ACCOLADES'</span>
+          BBKV <span className="text-yellow-400 cursor-target">ACCOLADES</span>
         </motion.h2>
       </div>
 
@@ -93,7 +93,7 @@ export default function AwardsTimeline() {
                   initial={{ opacity: 0, x: isRight ? 100 : -100 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8 }}
-                  className={`bg-zinc-900 rounded-xl shadow-xl p-6 w-full md:w-[calc(50%-2rem)] z-10 ${isRight ? 'md:order-1' : 'md:order-2'}`}
+                  className={`cursor-target bg-zinc-900 rounded-xl shadow-xl p-6 w-full md:w-[calc(50%-2rem)] z-10 ${isRight ? 'md:order-1' : 'md:order-2'}`}
                 >
                   <h3 className="text-xl font-semibold text-yellow-400">{item.title}</h3>
                   <p className="text-sm text-gray-300 mt-2">{item.description}</p>

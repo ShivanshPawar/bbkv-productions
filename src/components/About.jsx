@@ -14,7 +14,7 @@ export default function AboutUs() {
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8 }}
         >
-          THE <span className="text-yellow-400">BACKSTORY</span>
+          THE <span className="text-yellow-400 cursor-target">BACKSTORY</span>
         </motion.h2>
       </div>
 

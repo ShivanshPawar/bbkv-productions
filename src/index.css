@@ -9,6 +9,10 @@
   user-select: none;
 }
 
+*:hover{
+  cursor: none;
+}
+
 .fonty{
   font-family: 'VT323', monospace;
 

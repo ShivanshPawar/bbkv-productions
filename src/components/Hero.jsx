@@ -66,7 +66,7 @@ const Hero = () => {
                     <br />Enter the world of stories, humor, and heart.
                 </motion.p>
 
-                <hr className='w-[50%]' />
+                <hr className='w-[60%]' />
 
                 {/* Scroll Down CTA */}
                 <motion.div
